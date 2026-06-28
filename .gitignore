@@ -1,0 +1,11 @@
+# out/ and .env hold REAL private data (credentials + personal NI records) — never commit.
+.env
+.env.*
+!.env.example
+out/
+.station-id
+node_modules/
+# .browser-profile holds live session cookies; never commit.
+.browser-profile/
+.DS_Store
+*.har

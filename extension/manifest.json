@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "ביטוח לאומי — לוח מצב (BTL Dashboard)",
+  "version": "0.2.1",
+  "description": "מציג לוח מצב אישי מהאזור האישי בביטוח לאומי. תצוגה בלבד — הכול רץ בדפדפן שלך, שום נתון לא נשלח לאף שרת.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://ps.btl.gov.il/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://ps.btl.gov.il/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "ביטוח לאומי — לוח מצב",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "btl-scraper",
+  "version": "1.0.0",
+  "description": "Read-only scraper for the Israeli National Insurance (Bituach Leumi) personal portal — debts, collection, miluim and letters.",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scrape.js",
+    "report:miluim": "node src/report-miluim.js",
+    "letters:content": "node src/letters-content.js",
+    "dashboard": "node src/dashboard.js"
+  },
+  "license": "ISC"
+}
