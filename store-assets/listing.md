@@ -14,7 +14,7 @@ Hebrew (עברית)
 > לוח מצב אישי לאזור האישי בביטוח לאומי — חובות, מילואים, מכתבים ופניות. תצוגה בלבד, הכול רץ בדפדפן שלכם.
 
 **English:**
-> A personal dashboard for your National Insurance (Bituach Leumi) account — debts, reserve duty, letters, inquiries. Read-only, fully local.
+> National Insurance (Bituach Leumi) dashboard — debts, reserve duty, letters, inquiries. Read-only, fully local.
 
 ---
 
